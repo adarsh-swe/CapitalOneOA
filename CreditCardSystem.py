@@ -52,7 +52,7 @@ def main():
     file.close()
 
     if (not transactions) : 
-        print("No points awarded")
+        print("No points awarded, no transaction history available")
         return
 
     merchant_spending =  {
